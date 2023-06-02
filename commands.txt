@@ -1,0 +1,11 @@
+--Gera modulo dentro da pasta app com o nome pages--
+ng g m pages
+
+--Gera componente dentro do caminho especificado--
+ng g c ./pages/home
+
+--Gera componente identificando o module--
+ng g c --module pages pages/details
+
+--Gera serviço dentro do caminho especificado--
+ng g s service/pokeApi
